@@ -1,4 +1,10 @@
-@echo off
+@echo on
+
+@REM The lein file I used for most of my experiments
+
+echo "!!!!!"
+echo %*
+echo "!!!!!"
 
 setLocal EnableExtensions EnableDelayedExpansion
 
