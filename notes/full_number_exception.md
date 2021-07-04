@@ -1,4 +1,8 @@
 ```
+ java.lang.NumberFormatException: Invalid number: 0.8.3
+ at clojure.lang.LispReader.readNumber (LispReader.java:352)
+    clojure.lang.LispReader.read (LispReader.java:278)
+    clojure.lang.LispReader.readDelimitedList (LispReader.java:1398)
     clojure.lang.LispReader$VectorReader.invoke (LispReader.java:1347)
     clojure.lang.LispReader.read (LispReader.java:285)
     clojure.lang.LispReader.read (LispReader.java:216)
